@@ -1,6 +1,6 @@
 # Estudo de HTML e CSS
 
-Aprendizado da linguagem de marcação HTML
+Aprendizado da linguagem de marcação HTML. 
 Realização de exercícios e prática dos estudos.
 
 1. Adicionar imagens;
