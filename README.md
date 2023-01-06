@@ -1,4 +1,4 @@
-# Estudo de HTML e CSS
+# Estudo de HTML5 e CSS3
 
 Aprendizado da linguagem de marcação HTML. 
 Realização de exercícios e prática dos estudos.
