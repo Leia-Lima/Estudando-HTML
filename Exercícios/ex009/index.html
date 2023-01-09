@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Outras formatações (Codigos e citações)</title>
 </head>
 <body>
+    <h1>Outras formatações</h1>
     
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.getElementByld('teste')</code> é escrito em linguagem JavaScript</p> <!--Fazer a fonte ser monoespaçada com "code"-->
+    <pre>
+        <code>
+    num = int(imput('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre> <!--Envelopa 'code' na tag 'pre' para o codigo ficar no formato-->
+    
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p> <!--Envelopar desta forma 'q' traz sentido-->
+    
+    <h2>Citações completas</h2>
+    <p>Segundo Lucas Souza, no seu livro Ruby Aprenda a Programar na Linguagem mais divertida:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Ruby/qGSCCwAAQBAJ?hl=pt-BR&gbpv=1&dq=linguagem+ruby&printsec=frontcover">
+        Sem dúvidas, os maiores cases de sucesso da linguagem Ruby estão ligados a aplicaçõe We. A criação do Rails, inquestionavelmente, foi o que mais alavancou o sucesso da linguagem.
+    </blockquote> <!--'cite' = parametro-->
+    
+    <h2>Abreviando</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou amando!</p>
+    
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
 </body>
 </html>
